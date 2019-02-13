@@ -1,0 +1,136 @@
+body{
+    background-image: url("../images/arcade.jpg");
+    background-color: rgb(2, 214, 252);
+    display: grid;
+    color: #e3dac9;
+    font-family: serif;
+}
+
+.chest{
+    grid-row-start: body;
+    display: grid;
+    grid-template-columns: [game] auto
+}
+.wrapper {
+    display: grid;
+    border-style: solid;
+    margin: 0 auto;
+    max-width: 940px;
+    grid-auto-columns: 25%;
+    grid-auto-rows: minmax(100px , auto);
+}
+
+.wrapperTwo{
+    display: grid;
+    border-style: solid;
+    margin: 0 auto;
+    max-width: 940px;
+    grid-auto-columns: 25%;
+    grid-auto-rows: minmax(100px , auto)
+}
+
+#instructions{
+    font-family : sans-serif;
+    font-size: 18px;
+}
+
+.one{
+    grid-column: 1 / 5 ;
+    grid-row: 1;
+    text-align: center;
+    font-family: serif;
+    border-style: solid;
+}
+
+.two{
+    grid-column: 2;
+    grid-row: 2;
+    height: 100px;
+    text-align: center;
+    font-family: serif;
+    border-style: solid;
+}
+
+.three{
+    grid-column: 3;
+    grid-row: 2;
+    height: 100px;
+    text-align: center;
+    font-family: serif;
+    border-style: solid;
+}
+
+.four{
+    grid-column: 1 / 5 ;
+    grid-row: 3;
+    text-align: center;
+    font-family: serif;
+    border-style: solid;
+}
+
+.crystal{
+    border-style: solid;
+    background-color: rgb(160, 152, 152);
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    justify-content: center;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.crystalimage{
+    display: flex;
+    flex-direction: row;
+}
+
+#crystalA{
+    grid-column: 1;
+    grid-row:3;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+}
+
+#crystalB{
+    grid-column: 2;
+    grid-row:3;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+}
+
+#crystalC{
+    grid-column: 3;
+    grid-row:3;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+}
+
+#crystalD{
+    grid-column: 4;
+    grid-row:3;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+}
+
+.five{
+    border-style: solid;
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+}
+
+.six{
+    border-style: solid;
+    grid-column: 3;
+    grid-row: 4;
+    text-align: center;
+}
+.game{
+    grid-column-start: game;
+}
