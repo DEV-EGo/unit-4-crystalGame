@@ -1,8 +1,12 @@
 body{
     background-image: url("../images/arcade.jpg");
-    background-color: rgb(2, 214, 252);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    width: 100%;
+  height: 400px;
+    background-color: rgb(80, 62, 62);
     display: grid;
-    color: #e3dac9;
+    color: #ffcaff;
     text-align: center;
     font-family: serif;
 }
@@ -70,16 +74,19 @@ body{
 }
 
 .crystal{
-    border-style: solid;
+
+    flex: 33.33%;
+    padding: 5px;
+    /* border-style: solid;
     background-color: rgb(160, 152, 152);
     width: 300px;
     height: 250px;
     margin: 20px;
     justify-content: center;
-    margin-right:auto;
-    margin-left:auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-right:auto;
+    margin-left:auto; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 170px; */
 }
 
 .crystalimage{
@@ -90,33 +97,58 @@ body{
 #EmeraldCrystal{
     grid-column: 1;
     grid-row:3;
-    border-style: solid;
-    width: 300px;
-    height: 300px;
+    /* border-style: solid; */
+    width: 200px;
+    /* height: 50px; */
+
+    display: flex;
+    float: left;
+    height: 80%;
+    width: 83.33%;
+    /* padding: 5px; */
 }
 
 #PurpleCrystal{
     grid-column: 2;
     grid-row:3;
-    border-style: solid;
-    width: 300px;
-    height: 300px;
+    flex: 33%;
+    /* border-style: solid; */
+    width: 200px;
+    /* height: 50px; */
+   
+    height: 80%;
+    width: 83.33%;
+
+    /* display: flex;
+    float: left; */
+   
+    /* padding: 5px; */
 }
 
 #GreenCrystal{
     grid-column: 3;
-    grid-row:3;
-    border-style: solid;
-    width: 300px;
-    height: 300px;
+    grid-row: 4;
+    /* border-style: solid; */
+    width: 200px;
+    /* height: 50px; */
+
+    display: flex;
+    float: left;
+    width: 33.33%;
+    /* padding: 5px; */
 }
 
 #BlueCrystal{
     grid-column: 4;
-    grid-row:3;
-    border-style: solid;
-    width: 300px;
-    height: 300px;
+    grid-row: 5;
+    /* border-style: solid; */
+    width: 200px;
+    /* height: 50px; */
+
+    display: flex;
+    float: left;
+    width: 33.33%;
+    /* padding: 5px; */
 }
 
 .five{
@@ -133,7 +165,9 @@ body{
     text-align: center;
 }
 .game{
-.game{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
+    height: 200px;
+    width: 30%;
+    padding: 55%; */
 }
